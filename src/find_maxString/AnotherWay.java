@@ -17,7 +17,7 @@ public class AnotherWay {
         characterArrayList.add(ch[0]);
         for (int i = 0; i < ch.length; i++) {
             for (int j = i + 1; j < ch.length; j++) {
-                char temp = characterArrayList.get(characterArrayList.size() - 1);
+//                char temp = characterArrayList.get(characterArrayList.size() - 1);
                 if (ch[j] > characterArrayList.get(characterArrayList.size() - 1)) {
 //                    System.out.println(characterArrayList.get(characterArrayList.size() - 1));
                     characterArrayList.add(ch[j]);
